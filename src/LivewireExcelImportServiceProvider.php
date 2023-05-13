@@ -2,9 +2,9 @@
 
 namespace Soap\LivewireExcelImport;
 
+use Soap\LivewireExcelImport\Commands\LivewireExcelImportCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Soap\LivewireExcelImport\Commands\LivewireExcelImportCommand;
 
 class LivewireExcelImportServiceProvider extends PackageServiceProvider
 {

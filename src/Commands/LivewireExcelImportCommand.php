@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Soap\LivewireExcelImport\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class LivewireExcelImportCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'livewire-excel-import';
 
     public $description = 'My command';
 

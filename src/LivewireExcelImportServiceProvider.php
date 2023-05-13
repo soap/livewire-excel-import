@@ -19,7 +19,7 @@ class LivewireExcelImportServiceProvider extends PackageServiceProvider
             ->name('livewire-excel-import')
             ->hasConfigFile()
             ->hasViews()
-            ->hasMigration('create_livewire-excel-import_table')
+            ->hasMigration('create_livewire-excel-imports_table')
             ->hasCommand(LivewireExcelImportCommand::class);
     }
 }

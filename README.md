@@ -56,6 +56,14 @@ echo $livewireExcelImport->echoPhrase('Hello, Soap!');
 ```bash
 composer test
 ```
+## :wrench: Supported Versions
+
+Versions will be supported for a limited amount of time.
+
+| Version | Laravel Version | PHP Version | Support |
+|---- |----|----|----|
+| 1.0 | >=9.0| ^8.1 | First Release |
+
 
 ## Changelog
 

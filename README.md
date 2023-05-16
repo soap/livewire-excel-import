@@ -50,10 +50,12 @@ php artisan vendor:publish --tag="livewire-excel-import-views"
 ```
 
 ## Usage
-
+In your desired view, put the following livewire component.
 ```php
-$livewireExcelImport = new Soap\LivewireExcelImport();
-echo $livewireExcelImport->echoPhrase('Hello, Soap!');
+@livewire('excel-importer', [
+    'model' => App\Models\User::class, 
+    'importer' => App\Imports\UsersImport::class
+    ])
 ```
 
 ## Testing

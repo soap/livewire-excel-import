@@ -35,6 +35,11 @@ This is the contents of the published config file:
 
 ```php
 return [
+    
+    /**
+     * Options: tailwind | bootstrap-4 | bootstrap-5.
+     */
+    'theme' => 'tailwind',
 ];
 ```
 
